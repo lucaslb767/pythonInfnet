@@ -24,7 +24,15 @@ if expoente >= 0 :
         
         
 else :
-    print('O número tem que ser maior que 0')
+    base = float(1/base)
+    
+    expoente = expoente *(-1)
+    
+    while expoente > contador :#importante não colocar >=, pois isso gera um ciclo de repetição a mais, dado que o contador começa do 0.
+        
+        resultado = resultado * base
+        
+        contador += 1
     
 print('O resultado é', resultado)        
         
