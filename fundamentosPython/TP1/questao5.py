@@ -16,3 +16,6 @@ def existe_na_tupla(tupla,elemento):
 tupla = ("vermelho", "sushi", 456, "armario")
 
 existe_na_tupla(tupla, 456)
+
+    
+    

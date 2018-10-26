@@ -5,6 +5,8 @@ tupla_original = ("teste1","teste2","teste3","teste4")
 metade_primeira = ()
 metade_segunda = ()
 
+
+
 tamanho_tupla_original = len(tupla_original)
 
 if tamanho_tupla_original%2 == 0:
