@@ -16,18 +16,18 @@ def desenhaPoligono(inicio, pontos, corLinha="black", corRecheio="white"): #defi
    turtle.pendown() #o metodo .pendown é o oposto do penup. Utilizado para voltar a deixar rastros e assim desenhar.
    turtle.begin_fill()
 
-   x, y = inicio
+   x, y = inicio #define as variaveis "x" e "y" como sendo iguais ao parametro inicio
 
-   for ponto in pontos:  
-       dx, dy = ponto
-       turtle.goto(x + dx, y + dy)
+   for ponto in pontos:  #loop procurando por ponto dentro do parametro pontos
+       dx, dy = ponto   # define as variaveis dx e dy como iguais ao parametro ponto
+       turtle.goto(x + dx, y + dy) #o metodo .goto serve para mover o turtle para os pontos
    turtle.goto(inicio)  
 
    turtle.end_fill()
-   turtle.penup()
+   turtle.penup() 
 
 
-def teste():
+def teste(): #essa função tem como objetivo criar 3 polígonos, utilizando a função anterior.
    # Primeiro quadrado
    quadrado = [(50, 0), (50, 50), (0, 50), (0, 0)]
    desenhaPoligono((200, 200), quadrado)
