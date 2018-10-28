@@ -20,9 +20,7 @@ def triangulo(x,y,z):
         turtle.left(int(180 - cosX))
         turtle.forward(z)
         turtle.left(180 - cosY)
-        
-        
-        
+             
         valores = (x,y,z)
         if x==y and y==z :
             print('Triângulo Equilátero')
@@ -35,10 +33,6 @@ def triangulo(x,y,z):
             
         elif x!=y and y!=z and x!=z:
             print('Triângulo Escaleno')
-        
-
-        
-            
         
 
 a = int(input('Qual é o tamanho do primeiro lado? '))
