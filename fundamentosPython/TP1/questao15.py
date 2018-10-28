@@ -41,8 +41,8 @@ def teste(): #essa função tem como objetivo criar 3 polígonos, utilizando a f
    desenhaPoligono((100, -100), triangulo, corLinha="green")
 
 
-def main():
+def main():#essa funcao chama a funcao teste e utiliza o método turtle.done, que finaliza a biblioteca turtle
    teste()
    turtle.done()
 
-main()
+main()#chama a função main
