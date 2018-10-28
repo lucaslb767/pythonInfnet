@@ -3,7 +3,7 @@
 import turtle
 
 def triangulo(lado):
-    
+    turtle.fillcolor('red')
     angulo = 120
     
     turtle.speed('fastest')
