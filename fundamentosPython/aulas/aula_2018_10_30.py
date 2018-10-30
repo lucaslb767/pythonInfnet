@@ -9,6 +9,8 @@ tela = pygame.display.set_mode((largura_tela,altura_tela))
 
 amarelo = (255,255,0)
 vermelho = (255,0,0)
+verde = (0,255,0)
+azul = (0,0,255)
 
 #desenha um retangulo não preenchido com linha amarela
 
@@ -17,6 +19,10 @@ pygame.draw.rect(tela,amarelo,(10,10,200,100),3)
 #desenha um retangulo todo preenchido de vermelho
 
 pygame.draw.rect(tela,vermelho,(400,300,50,50))
+
+pygame.draw.circle(tela, verde, (50, 300), 50)
+
+pygame.draw.circle(tela, azul, (300, 60), 50, 2)
 
 
 terminou = False
