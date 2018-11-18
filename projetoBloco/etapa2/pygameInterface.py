@@ -33,6 +33,8 @@ def mostra_uso_memoria():
 
 clock = pygame.time.Clock()
 
+cont = 60
+
 terminou = False
 
 while not terminou:
@@ -41,12 +43,17 @@ while not terminou:
         if event.type == pygame.QUIT:
             terminou = True
 
+    if cont == 60:
+        mostra_uso_memoria()
+        cont = 0
+
     #atualiza o desenho na tela
     pygame.display.update()
 
     #60 frames por segundo
 
     clock.tick(60)
+    cont = cont +1
 
 #finaliza a janela
 pygame.display.quit()
