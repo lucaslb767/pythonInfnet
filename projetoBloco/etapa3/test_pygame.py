@@ -2,6 +2,23 @@ import pygame
 import psutil
 import cpuinfo
 
+def mostra_uso_cpu(s, l_cpu_percent):
+    s.fill(gray)
+    num_cpu = len(l_cpu_percent)
+    x=y=10
+    desl = 10
+    alt = s.get_height() - 2*y
+    larg = (s.get_width() - 2*x - (num_cpu+1)*desl)/num_cpu
+    d = x +desl
+
+    for i in l_cpu_percent:
+        pygame.draw.rect(s,red, (d,y,larg,alt))
+        pygame.draw.rect(s,blue,(d,y,larg,(1-i/100)*alt))
+        d = d + larg + desl
+
+    # parte mais abaixo da tela
+    screen.blit(s, (0, screen_height / 5))
+
 def mostra_texto(sN, nome, chave , pos_y):
     text = font.render(nome, True, black)
     sN.blit(text, (10, pos_y))
@@ -38,18 +55,21 @@ info_cpu = cpuinfo.get_cpu_info()
 black = (0,0,0)
 white = (255,255,255)
 gray = (100,100,100)
+red = (255,0,0)
+blue = (0,0,255)
 
 #iniciando a janela principal
 
 screen_width = 800
-scree_height = 600
-screen = pygame.display.set_mode((screen_width,scree_height))
+screen_height = 600
+screen = pygame.display.set_mode((screen_width,screen_height))
 pygame.display.set_caption('Informações de CPU')
 pygame.display.init()
 
 #Superficie para mostrar as informações:
 
-s1 = pygame.surface.Surface((screen_width,scree_height))
+s1 = pygame.surface.Surface((screen_width,screen_height/4))
+s2 = pygame.surface.Surface((screen_width,3*screen_height/4))
 
 #Para usar na fonte
 pygame.font.init()
@@ -75,6 +95,7 @@ while not terminou:
     #fazer a atualiação a cada segundo
     if cont ==60:
         mostra_info_cpu()
+        mostra_uso_cpu(s2,psutil.cpu_percent(percpu=True))
         cont = 0
 
     #atualiza o desenho na tela

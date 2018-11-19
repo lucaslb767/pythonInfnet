@@ -29,7 +29,7 @@ def mostra_uso_memoria():
     larg = screen_width - 2*20
     s1.fill(black)
     pygame.draw.rect(s1, blue,(20,50,larg,70))
-    screen.blit(s1, (0, 0))
+    #
 
     larg2 = larg*mem.percent/100
     pygame.draw.rect(s1,red,(20,50,larg2,70))
@@ -79,7 +79,8 @@ def mostra_uso_disco():
 def mostra_ip():
     dic_interfaces = psutil.net_if_addrs()
 
-
+    for i in dic_interfaces:
+        print(i + ':' + dic_interfaces[i])
 
     texto_barra = "O seu ip é: " +str(dic_interfaces['Wi-Fi'][0].address)
 
