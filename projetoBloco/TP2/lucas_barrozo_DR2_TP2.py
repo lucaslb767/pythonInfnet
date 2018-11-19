@@ -79,7 +79,9 @@ def mostra_uso_disco():
 def mostra_ip():
     dic_interfaces = psutil.net_if_addrs()
 
-    texto_barra = "O seu ip é: " +str(dic_interfaces['Ethernet 2'][0].address)
+
+
+    texto_barra = "O seu ip é: " +str(dic_interfaces['Wi-Fi'][0].address)
 
     text = font.render(texto_barra,1,white)
     screen.blit(text, (20,3*screen_height/4))
