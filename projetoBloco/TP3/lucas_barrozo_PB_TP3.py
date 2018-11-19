@@ -308,4 +308,86 @@ def memory_screen():
     # finaliza a janela
     pygame.display.quit()
 
-memory_screen()
+
+def disk_screen():
+    s1 = pygame.surface.Surface((screen_width, screen_height / 4))
+    s2 = pygame.surface.Surface((screen_width, 3 * screen_height / 4))
+
+    def mostra_texto(sN, nome, chave, pos_y):
+        text = font.render(nome, True, black)
+        sN.blit(text, (5, pos_y))
+
+        s = ''
+        if chave == 'total':
+            s = str(round(psutil.disk_usage('.').total / (1024 * 1024 * 1024), 2)) + 'GB'
+
+        elif chave == 'used':
+            s = str(round(psutil.disk_usage('.').used / (1024 * 1024 * 1024), 2)) + 'GB'
+
+        elif chave == 'free':
+            s = str(round(psutil.disk_usage('.').free / (1024 * 1024 * 1024), 2)) + 'GB'
+
+        text = font.render(s, True, black)
+        sN.blit(text, (250, pos_y))
+
+    def mostra_info_disco():
+        s1.fill(white)
+        mostra_texto(s1, 'Total:', 'total', 10 + 10)
+        mostra_texto(s1, 'Espaço usado' + '( ' + str(psutil.disk_usage('.').percent) + '% ):', 'used', 50 + 10)
+        mostra_texto(s1, 'Espaço disponível:', 'free', 70 + 10)
+
+        screen.blit(s1, (0, 0))
+
+    def mostra_uso_disco():
+        disco = psutil.disk_usage('.')
+        larg = screen_width - 2*20
+
+        pygame.draw.rect(s2,gray,(20,50,larg,70))
+        screen.blit(s2, (0, screen_height / 4))
+
+        larg = larg*disco.percent/100
+        pygame.draw.rect(s2,green,(20,50,larg,70))
+        screen.blit(s2, (0, screen_height / 4))
+
+        total = round(disco.total/(1024*1024*1024),2)
+        texto_barra = "Uso de Disco: (Total: "+str(total)+ "GB: "
+        text = font.render(texto_barra,1,white)
+        screen.blit(text, (20,screen_height/4))
+
+    def disk_total():
+        mostra_info_disco()
+        mostra_uso_disco()
+
+    # cria relogio
+
+    clock = pygame.time.Clock()
+
+    cont = 60
+
+    terminou = False
+
+    while not terminou:
+
+        # checar os eventos do mouse aqui:
+        for event in pygame.event.get():
+            if event.type == pygame.QUIT:
+                terminou = True
+
+        if cont == 60:
+            disk_total()
+
+            cont = 0
+
+        # Atualia o desenho na tela
+        pygame.display.update()
+
+        # 60frames por segundo
+        clock.tick(60)
+
+        cont += 1
+
+    # finaliza a janela
+    pygame.display.quit()
+
+
+disk_screen()
