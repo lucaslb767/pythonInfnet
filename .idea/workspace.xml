@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a995429f-39f0-45e8-ba2d-ac966c6da2af" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projetoBloco/TP2/lucas_barrozo_DR2_TP2.py" beforeDir="false" afterPath="$PROJECT_DIR$/projetoBloco/TP2/lucas_barrozo_DR2_TP2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projetoBloco/etapa3/test_pygame.py" beforeDir="false" afterPath="$PROJECT_DIR$/projetoBloco/etapa3/test_pygame.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fundamentosPython/.idea/fundamentosPython.iml" beforeDir="false" afterPath="$PROJECT_DIR$/fundamentosPython/.idea/fundamentosPython.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fundamentosPython/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/fundamentosPython/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projetoBloco/TP3/lucas_barrozo_PB_TP3.py" beforeDir="false" afterPath="$PROJECT_DIR$/projetoBloco/TP3/lucas_barrozo_PB_TP3.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -27,7 +27,8 @@
     <SUITE FILE_PATH="coverage/pythonInfnet$psutil2.coverage" NAME="psutil2 Coverage Results" MODIFIED="1542397239924" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/projetoBloco/etapa2" />
     <SUITE FILE_PATH="coverage/pythonInfnet$cpu_info.coverage" NAME="cpu_info Coverage Results" MODIFIED="1542567783759" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/projetoBloco/etapa2" />
     <SUITE FILE_PATH="coverage/pythonInfnet$platform_processador.coverage" NAME="platform_processador Coverage Results" MODIFIED="1542392696618" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/projetoBloco/etapa2" />
-    <SUITE FILE_PATH="coverage/pythonInfnet$test_pygame.coverage" NAME="test_pygame Coverage Results" MODIFIED="1542640835872" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/projetoBloco/etapa3" />
+    <SUITE FILE_PATH="coverage/pythonInfnet$test_pygame.coverage" NAME="test_pygame Coverage Results" MODIFIED="1542651003647" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/projetoBloco/etapa3" />
+    <SUITE FILE_PATH="coverage/pythonInfnet$lucas_barrozo_PB_TP3.coverage" NAME="lucas_barrozo_PB_TP3 Coverage Results" MODIFIED="1542653987136" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/projetoBloco/TP3" />
     <SUITE FILE_PATH="coverage/pythonInfnet$individual_cpu.coverage" NAME="individual_cpu Coverage Results" MODIFIED="1542639211273" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/projetoBloco/etapa3" />
     <SUITE FILE_PATH="coverage/pythonInfnet$psutil_disk.coverage" NAME="psutil_disk Coverage Results" MODIFIED="1542398634630" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/projetoBloco/etapa2" />
     <SUITE FILE_PATH="coverage/pythonInfnet$disk_info.coverage" NAME="disk_info Coverage Results" MODIFIED="1542573905814" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/projetoBloco/etapa2" />
@@ -61,13 +62,13 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="63" />
-          <entry key="py" value="7842" />
+          <entry key="py" value="8129" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="63" />
-          <entry key="Python" value="7842" />
+          <entry key="Python" value="8129" />
         </counts>
       </usages-collector>
     </session>
@@ -86,8 +87,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/projetoBloco/TP2/lucas_barrozo_DR2_TP2.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1241">
-              <caret line="82" column="42" lean-forward="true" selection-start-line="79" selection-start-column="4" selection-end-line="82" selection-end-column="42" />
+            <state relative-caret-position="357">
+              <caret line="87" column="45" lean-forward="true" selection-start-line="87" selection-start-column="45" selection-end-line="87" selection-end-column="45" />
               <folding>
                 <element signature="e#0#13#0" expanded="true" />
               </folding>
@@ -104,11 +105,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/projetoBloco/etapa3/test_pygame.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="202">
-              <caret line="91" column="37" lean-forward="true" selection-start-line="91" selection-start-column="37" selection-end-line="91" selection-end-column="37" />
+            <state relative-caret-position="385">
+              <caret line="97" column="58" lean-forward="true" selection-start-line="96" selection-start-column="8" selection-end-line="97" selection-end-column="58" />
               <folding>
                 <element signature="e#0#13#0" expanded="true" />
               </folding>
@@ -125,12 +126,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/projetoBloco/TP3/lucas_barrozo_PB_TP3.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="22" column="57" selection-start-line="19" selection-start-column="57" selection-end-line="22" selection-end-column="57" />
-              <caret line="23" column="57" selection-start-line="23" selection-start-column="57" selection-end-line="23" selection-end-column="57" />
+            <state relative-caret-position="42">
+              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
               <folding>
                 <element signature="e#0#13#0" expanded="true" />
               </folding>
@@ -152,6 +152,7 @@
       <find>255</find>
       <find>screen.blit</find>
       <find>mem</find>
+      <find>info_cpu</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -178,11 +179,11 @@
         <option value="$PROJECT_DIR$/projetoBloco/etapa2/superficie.py" />
         <option value="$PROJECT_DIR$/projetoBloco/etapa3/cpuInfo.py" />
         <option value="$PROJECT_DIR$/projetoBloco/etapa3/cpuInfo_test.py" />
-        <option value="$PROJECT_DIR$/projetoBloco/TP3/lucas_barrozo_PB_TP3.py" />
         <option value="$PROJECT_DIR$/projetoBloco/etapa3/frequencia_total.py" />
         <option value="$PROJECT_DIR$/projetoBloco/etapa3/individual_cpu.py" />
         <option value="$PROJECT_DIR$/projetoBloco/TP2/lucas_barrozo_DR2_TP2.py" />
         <option value="$PROJECT_DIR$/projetoBloco/etapa3/test_pygame.py" />
+        <option value="$PROJECT_DIR$/projetoBloco/TP3/lucas_barrozo_PB_TP3.py" />
       </list>
     </option>
   </component>
@@ -192,11 +193,11 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="1037" />
-    <option name="y" value="17" />
-    <option name="width" value="919" />
-    <option name="height" value="974" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-196" />
+    <option name="y" value="-1451" />
+    <option name="width" value="2582" />
+    <option name="height" value="1403" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -236,7 +237,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/fundamentosPython" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.editor" />
@@ -258,29 +259,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.test_pygame">
-    <configuration name="cpuInfo_test" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="pythonInfnet" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/projetoBloco/etapa3" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/projetoBloco/etapa3/cpuInfo_test.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.lucas_barrozo_PB_TP3">
     <configuration name="frequencia_total" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="pythonInfnet" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -347,6 +326,28 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="lucas_barrozo_PB_TP3" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="pythonInfnet" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/projetoBloco/TP3" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/projetoBloco/TP3/lucas_barrozo_PB_TP3.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="test_pygame" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="pythonInfnet" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -371,18 +372,18 @@
     </configuration>
     <list>
       <item itemvalue="Python.lucas_barrozo_DR2_TP2" />
-      <item itemvalue="Python.cpuInfo_test" />
       <item itemvalue="Python.frequencia_total" />
       <item itemvalue="Python.test_pygame" />
       <item itemvalue="Python.individual_cpu" />
+      <item itemvalue="Python.lucas_barrozo_PB_TP3" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.lucas_barrozo_PB_TP3" />
         <item itemvalue="Python.test_pygame" />
         <item itemvalue="Python.individual_cpu" />
         <item itemvalue="Python.lucas_barrozo_DR2_TP2" />
         <item itemvalue="Python.frequencia_total" />
-        <item itemvalue="Python.cpuInfo_test" />
       </list>
     </recent_temporary>
   </component>
@@ -400,15 +401,15 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="830" y="14" width="735" height="779" extended-state="0" />
+    <frame x="-192" y="-1447" width="1721" height="935" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.21925926" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.08910295" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32817337" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.26433915" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -509,14 +510,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/projetoBloco/TP3/lucas_barrozo_PB_TP3.py">
+    <entry file="file://$PROJECT_DIR$/projetoBloco/etapa3/individual_cpu.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="57" selection-start-line="19" selection-start-column="57" selection-end-line="22" selection-end-column="57" />
-          <caret line="23" column="57" selection-start-line="23" selection-start-column="57" selection-end-line="23" selection-end-column="57" />
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="68">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
         </state>
       </provider>
     </entry>
@@ -527,17 +524,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/projetoBloco/etapa3/individual_cpu.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/projetoBloco/TP2/lucas_barrozo_DR2_TP2.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1241">
-          <caret line="82" column="42" lean-forward="true" selection-start-line="79" selection-start-column="4" selection-end-line="82" selection-end-column="42" />
+        <state relative-caret-position="357">
+          <caret line="87" column="45" lean-forward="true" selection-start-line="87" selection-start-column="45" selection-end-line="87" selection-end-column="45" />
           <folding>
             <element signature="e#0#13#0" expanded="true" />
           </folding>
@@ -546,8 +536,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/projetoBloco/etapa3/test_pygame.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="202">
-          <caret line="91" column="37" lean-forward="true" selection-start-line="91" selection-start-column="37" selection-end-line="91" selection-end-column="37" />
+        <state relative-caret-position="385">
+          <caret line="97" column="58" lean-forward="true" selection-start-line="96" selection-start-column="8" selection-end-line="97" selection-end-column="58" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/projetoBloco/TP3/lucas_barrozo_PB_TP3.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
           <folding>
             <element signature="e#0#13#0" expanded="true" />
           </folding>
