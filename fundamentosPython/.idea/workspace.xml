@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5b453885-5b4f-45a1-979a-e72eeb3956b9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/etapa7/request_scrapping.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/etapa7/splitlines_python.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/etapa7/webscrapping.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/etapa7/sokitlines_python_ex2.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -14,6 +12,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/fundamentosPython$sokitlines_python_ex2.coverage" NAME="sokitlines_python_ex2 Coverage Results" MODIFIED="1543312195556" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/etapa7" />
     <SUITE FILE_PATH="coverage/fundamentosPython$aula_2018_10_30.coverage" NAME="aula_2018_10_30 Coverage Results" MODIFIED="1542883696406" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/aulas" />
     <SUITE FILE_PATH="coverage/fundamentosPython$webscrapping.coverage" NAME="webscrapping Coverage Results" MODIFIED="1542883744384" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/etapa7" />
     <SUITE FILE_PATH="coverage/fundamentosPython$questao10.coverage" NAME="questao10 Coverage Results" MODIFIED="1540896600660" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TP1" />
@@ -34,23 +33,23 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="7" />
-          <entry key="py" value="1075" />
+          <entry key="py" value="1243" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="7" />
-          <entry key="Python" value="1075" />
+          <entry key="Python" value="1243" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="py" value="6" />
+          <entry key="py" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Python" value="6" />
+          <entry key="Python" value="7" />
         </counts>
       </usages-collector>
     </session>
@@ -116,11 +115,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/etapa7/splitlines_python.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="25" lean-forward="true" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
+            <state relative-caret-position="90">
+              <caret line="6" lean-forward="true" selection-end-line="7" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/etapa7/sokitlines_python_ex2.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="195">
+              <caret line="13" column="38" lean-forward="true" selection-start-line="13" selection-start-column="38" selection-end-line="13" selection-end-column="38" />
             </state>
           </provider>
         </entry>
@@ -153,6 +161,7 @@
         <option value="$PROJECT_DIR$/etapa7/webscrapping.py" />
         <option value="$PROJECT_DIR$/etapa7/request_scrapping.py" />
         <option value="$PROJECT_DIR$/etapa7/splitlines_python.py" />
+        <option value="$PROJECT_DIR$/etapa7/sokitlines_python_ex2.py" />
       </list>
     </option>
   </component>
@@ -209,7 +218,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.request_scrapping">
+  <component name="RunManager" selected="Python.sokitlines_python_ex2">
     <configuration name="aula_2018_10_30" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="fundamentosPython" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -254,28 +263,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="questao9" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="fundamentosPython" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/TP1" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/TP1/questao9.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="request_scrapping" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="fundamentosPython" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -290,6 +277,28 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/etapa7/request_scrapping.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="sokitlines_python_ex2" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="fundamentosPython" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/etapa7" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/etapa7/sokitlines_python_ex2.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -321,19 +330,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.questao9" />
       <item itemvalue="Python.questao10" />
       <item itemvalue="Python.aula_2018_10_30" />
       <item itemvalue="Python.webscrapping" />
       <item itemvalue="Python.request_scrapping" />
+      <item itemvalue="Python.sokitlines_python_ex2" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.sokitlines_python_ex2" />
         <item itemvalue="Python.request_scrapping" />
         <item itemvalue="Python.webscrapping" />
         <item itemvalue="Python.aula_2018_10_30" />
         <item itemvalue="Python.questao10" />
-        <item itemvalue="Python.questao9" />
       </list>
     </recent_temporary>
   </component>
@@ -427,8 +436,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/etapa7/splitlines_python.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="25" lean-forward="true" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
+        <state relative-caret-position="90">
+          <caret line="6" lean-forward="true" selection-end-line="7" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/etapa7/sokitlines_python_ex2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="38" lean-forward="true" selection-start-line="13" selection-start-column="38" selection-end-line="13" selection-end-column="38" />
         </state>
       </provider>
     </entry>
