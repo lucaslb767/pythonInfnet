@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5b453885-5b4f-45a1-979a-e72eeb3956b9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/TP3/Q8.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TP3/Q9.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -23,6 +23,7 @@
     <SUITE FILE_PATH="coverage/fundamentosPython$Q2.coverage" NAME="Q2 Coverage Results" MODIFIED="1543397127608" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TP3" />
     <SUITE FILE_PATH="coverage/fundamentosPython$beautifulSoup_exercise.coverage" NAME="beautifulSoup_exercise Coverage Results" MODIFIED="1543314230487" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/etapa7" />
     <SUITE FILE_PATH="coverage/fundamentosPython$palavras.coverage" NAME="palavras Coverage Results" MODIFIED="1543315160280" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/etapa7" />
+    <SUITE FILE_PATH="coverage/fundamentosPython$Q9.coverage" NAME="Q9 Coverage Results" MODIFIED="1543424493249" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TP3" />
     <SUITE FILE_PATH="coverage/fundamentosPython$Q3.coverage" NAME="Q3 Coverage Results" MODIFIED="1543398088858" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TP3" />
     <SUITE FILE_PATH="coverage/fundamentosPython$Q1.coverage" NAME="Q1 Coverage Results" MODIFIED="1543326251893" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TP3" />
     <SUITE FILE_PATH="coverage/fundamentosPython$Q7.coverage" NAME="Q7 Coverage Results" MODIFIED="1543419715834" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TP3" />
@@ -42,23 +43,23 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="7" />
-          <entry key="py" value="4946" />
+          <entry key="py" value="5314" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="7" />
-          <entry key="Python" value="4946" />
+          <entry key="Python" value="5314" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="py" value="17" />
+          <entry key="py" value="20" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Python" value="17" />
+          <entry key="Python" value="20" />
         </counts>
       </usages-collector>
     </session>
@@ -76,14 +77,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/TP3/Q8.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" column="15" lean-forward="true" selection-end-line="20" />
+            <state relative-caret-position="300">
+              <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
               <folding>
                 <marker date="1543423223695" expanded="true" signature="400:405" ph="..." />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/TP3/Q9.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="11" column="73" selection-start-line="11" selection-start-column="73" selection-end-line="11" selection-end-column="73" />
             </state>
           </provider>
         </entry>
@@ -127,6 +137,7 @@
         <option value="$PROJECT_DIR$/TP3/Q6.py" />
         <option value="$PROJECT_DIR$/TP3/Q7.py" />
         <option value="$PROJECT_DIR$/TP3/Q8.py" />
+        <option value="$PROJECT_DIR$/TP3/Q9.py" />
       </list>
     </option>
   </component>
@@ -158,11 +169,6 @@
             <path>
               <item name="fundamentosPython" type="b2602c69:ProjectViewProjectNode" />
               <item name="fundamentosPython" type="462c0819:PsiDirectoryNode" />
-              <item name="etapa7" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="fundamentosPython" type="b2602c69:ProjectViewProjectNode" />
-              <item name="fundamentosPython" type="462c0819:PsiDirectoryNode" />
               <item name="TP3" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -189,29 +195,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.Q8">
-    <configuration name="Q4" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="fundamentosPython" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/TP3" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/TP3/Q4.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.Q9">
     <configuration name="Q5" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="fundamentosPython" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -300,20 +284,42 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="Q9" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="fundamentosPython" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/TP3" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/TP3/Q9.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <list>
-      <item itemvalue="Python.Q4" />
       <item itemvalue="Python.Q5" />
       <item itemvalue="Python.Q6" />
       <item itemvalue="Python.Q7" />
       <item itemvalue="Python.Q8" />
+      <item itemvalue="Python.Q9" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Q9" />
         <item itemvalue="Python.Q8" />
         <item itemvalue="Python.Q7" />
         <item itemvalue="Python.Q6" />
         <item itemvalue="Python.Q5" />
-        <item itemvalue="Python.Q4" />
       </list>
     </recent_temporary>
   </component>
@@ -494,13 +500,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/TP1/questao8.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TP1/questao20.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/TP3/Q8.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="15" lean-forward="true" selection-end-line="20" />
+        <state relative-caret-position="300">
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
           <folding>
             <marker date="1543423223695" expanded="true" signature="400:405" ph="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TP3/Q9.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="73" selection-start-line="11" selection-start-column="73" selection-end-line="11" selection-end-column="73" />
         </state>
       </provider>
     </entry>
