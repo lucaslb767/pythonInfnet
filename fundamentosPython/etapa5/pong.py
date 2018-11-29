@@ -54,6 +54,18 @@ def move_ball(ball, ballDirX, ballDirY):
 
     return ball
 
+#verifica se existe colisão com as bordas
+#Retorna uma nova posição caso exista colisão
+
+def colision_detection(ball, ballDirX, ballDirY):
+    if ball.top == (LINE_WIDTH) or ball.bottom == (SCREEN_HEIGHT - LINE_WIDTH):
+        ballDirY *= -1
+
+    if ball.left == (LINE_WIDTH) or ball.right == (SCREEN_WIDTH - LINE_WIDTH):
+        ballDirX *= -1
+
+    return ballDirX,ballDirY
+
 
 
 def main():
@@ -104,6 +116,7 @@ def main():
         draw_ball(ball)
 
         ball = move_ball(ball, ballDirX, ballDirY)
+        ballDirX, ballDirY = colision_detection(ball, ballDirX, ballDirY)
         # atualiza o desenho na tela
         pygame.display.update()
         FPSCLOCK.tick(FPS)

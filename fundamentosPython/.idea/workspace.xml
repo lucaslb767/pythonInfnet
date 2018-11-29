@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5b453885-5b4f-45a1-979a-e72eeb3956b9" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TP3/Q10.py" beforeDir="false" afterPath="$PROJECT_DIR$/TP3/Q10.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/etapa5/pong.py" beforeDir="false" afterPath="$PROJECT_DIR$/etapa5/pong.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/etapa7/palavras.py" beforeDir="false" afterPath="$PROJECT_DIR$/etapa7/palavras.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,7 +13,7 @@
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/fundamentosPython$sokitlines_python_ex2.coverage" NAME="sokitlines_python_ex2 Coverage Results" MODIFIED="1543312195556" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/etapa7" />
     <SUITE FILE_PATH="coverage/fundamentosPython$Q8.coverage" NAME="Q8 Coverage Results" MODIFIED="1543423223703" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TP3" />
-    <SUITE FILE_PATH="coverage/fundamentosPython$pong.coverage" NAME="pong Coverage Results" MODIFIED="1543497926889" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/etapa5" />
+    <SUITE FILE_PATH="coverage/fundamentosPython$pong.coverage" NAME="pong Coverage Results" MODIFIED="1543499239711" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/etapa5" />
     <SUITE FILE_PATH="coverage/fundamentosPython$aula_2018_10_30.coverage" NAME="aula_2018_10_30 Coverage Results" MODIFIED="1542883696406" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/aulas" />
     <SUITE FILE_PATH="coverage/fundamentosPython$webscrapping.coverage" NAME="webscrapping Coverage Results" MODIFIED="1542883744384" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/etapa7" />
     <SUITE FILE_PATH="coverage/fundamentosPython$Q5.coverage" NAME="Q5 Coverage Results" MODIFIED="1543411451166" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TP3" />
@@ -55,7 +52,7 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="7" />
-          <entry key="Python" value="8400" />
+          <entry key="Python" value="8720" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -107,13 +104,13 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/etapa5/pong.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="249">
-              <caret line="103" column="23" lean-forward="true" selection-start-line="103" selection-start-column="23" selection-end-line="103" selection-end-column="23" />
+            <state relative-caret-position="416">
+              <caret line="113" column="22" lean-forward="true" selection-start-line="113" selection-start-column="22" selection-end-line="113" selection-end-column="22" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
-                <marker date="1543497926869" expanded="true" signature="633:639" ph="..." />
-                <marker date="1543497926869" expanded="true" signature="976:1134" ph="..." />
-                <marker date="1543497926869" expanded="true" signature="1145:1146" ph="..." />
+                <marker date="1543499239698" expanded="true" signature="633:639" ph="..." />
+                <marker date="1543499239698" expanded="true" signature="976:1510" ph="..." />
+                <marker date="1543499239698" expanded="true" signature="1521:1522" ph="..." />
               </folding>
             </state>
           </provider>
@@ -580,13 +577,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/etapa5/pong.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="249">
-          <caret line="103" column="23" lean-forward="true" selection-start-line="103" selection-start-column="23" selection-end-line="103" selection-end-column="23" />
+        <state relative-caret-position="416">
+          <caret line="113" column="22" lean-forward="true" selection-start-line="113" selection-start-column="22" selection-end-line="113" selection-end-column="22" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
-            <marker date="1543497926869" expanded="true" signature="633:639" ph="..." />
-            <marker date="1543497926869" expanded="true" signature="976:1134" ph="..." />
-            <marker date="1543497926869" expanded="true" signature="1145:1146" ph="..." />
+            <marker date="1543499239698" expanded="true" signature="633:639" ph="..." />
+            <marker date="1543499239698" expanded="true" signature="976:1510" ph="..." />
+            <marker date="1543499239698" expanded="true" signature="1521:1522" ph="..." />
           </folding>
         </state>
       </provider>
