@@ -46,6 +46,8 @@ def draw_bar(bar):
 def draw_ball(ball):
     pygame.draw.rect(DISPLAYSURF, WHITE, ball)
 
+    #TODO: fazer a bola se mover
+
 def main():
 
     pygame.init()
