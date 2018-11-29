@@ -46,7 +46,15 @@ def draw_bar(bar):
 def draw_ball(ball):
     pygame.draw.rect(DISPLAYSURF, WHITE, ball)
 
-    #TODO: fazer a bola se mover
+
+
+def move_ball(ball, ballDirX, ballDirY):
+    ball.x += ballDirX
+    ball.y += ballDirY
+
+    return ball
+
+
 
 def main():
 
@@ -57,6 +65,8 @@ def main():
     DISPLAYSURF = pygame.display.set_mode((SCREEN_WIDTH,SCREEN_HEIGHT))
     pygame.display.set_caption('PONG')
 
+    #iniciando as variáveis nas posições iniciais
+    #Estas variáveis serão alteradas ao longo da execução
     bolaX = SCREEN_WIDTH//2 - LINE_WIDTH//2
     bolaY = SCREEN_HEIGHT//2 - LINE_WIDTH//2
 
@@ -67,6 +77,10 @@ def main():
     bar1 = pygame.Rect(BAR_PADDING, playerOne_position,LINE_WIDTH, BAR_HEIGHT)
     bar2 = pygame.Rect(SCREEN_WIDTH - BAR_PADDING - LINE_WIDTH,playerTwo_position, LINE_WIDTH, BAR_HEIGHT)
     ball = pygame.Rect(bolaX,bolaY,LINE_WIDTH,LINE_WIDTH)
+
+    #altera posição da bola
+    ballDirX = -1
+    ballDirY = -1
 
     #desenhando as posições iniciais da arena
     arena_draw()
@@ -88,6 +102,8 @@ def main():
         draw_bar(bar1)
         draw_bar(bar2)
         draw_ball(ball)
+
+        ball = move_ball(ball, ballDirX, ballDirY)
         # atualiza o desenho na tela
         pygame.display.update()
         FPSCLOCK.tick(FPS)

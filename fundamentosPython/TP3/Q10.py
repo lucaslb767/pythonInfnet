@@ -12,6 +12,8 @@ red = (255,0,0)
 square_position = [int(screen_width/2 - 50),int(screen_height/2 - 50)]
 velocity = 5
 
+SCREEN = pygame.display.set_mode((screen_width,screen_height))
+
 square = pygame.draw.rect(SCREEN,red, (square_position[0], square_position[1], 100, 100))
 
 def draw_background():
@@ -33,6 +35,7 @@ def square_move(keys, square_pos):
     return square_pos
 
 def draw_square(square_pos):
+
     SCREEN.blit(square)
 
 def main():
