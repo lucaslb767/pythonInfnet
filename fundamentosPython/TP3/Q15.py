@@ -18,7 +18,7 @@ pygame.init()
 
 win = pygame.display.set_mode((SCREEN_WIDTH,SCREEN_HEIGHT))
 
-pygame.display.set_caption('Q10')
+pygame.display.set_caption('Q15')
 
 
 
@@ -33,19 +33,19 @@ while run:
         if event.type == pygame.QUIT:
             run = False
 
-    keys = pygame.key.get_pressed()
 
-    if keys[pygame.K_w]:
-        Y -= vel
-    if keys[pygame.K_s]:
-        Y += vel
-    if keys[pygame.K_a]:
-        X -= vel
-    if keys[pygame.K_d]:
-        X += vel
 
     win.fill(BLACK)
-    pygame.draw.rect(win,RED,(X, Y,width,height ) )
+
+    pygame.draw.polygon(win, RED, [(40, 40), (60, 40), (65, 50), (50, 60),(35,50)])
+
+    pygame.draw.polygon(win,RED, [(40,40),(60,40),(50, 20)])
+    pygame.draw.polygon(win, RED, [(60, 40), (65, 50), (80, 45)])
+    pygame.draw.polygon(win, RED, [(65, 50), (50, 60), (62, 70)])
+    pygame.draw.polygon(win, RED, [(50, 60), (35, 50), (32, 70)])
+    pygame.draw.polygon(win, RED, [(35, 50), (40, 40), (20, 45)])
+
+
     pygame.display.update()
 
 pygame.display.quit()

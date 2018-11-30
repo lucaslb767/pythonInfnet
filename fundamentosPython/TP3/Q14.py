@@ -42,8 +42,10 @@ while run:
 
     win.fill(BLACK)
     pygame.draw.rect(win,RED,(X, Y,width,height ) )
+
     pygame.display.update()
 
 pygame.display.quit()
 
 pygame.quit()
+
