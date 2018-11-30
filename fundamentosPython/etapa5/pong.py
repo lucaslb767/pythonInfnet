@@ -110,6 +110,11 @@ def main():
             if event.type == pygame.QUIT:
                 done = True
 
+            #move o jogador
+            if event.type == MOUSEMOTION:
+                mouseX, mouseY = event.pos
+                bar1.y = mouseY
+
         arena_draw()
         draw_bar(bar1)
         draw_bar(bar2)
@@ -118,6 +123,7 @@ def main():
         ball = move_ball(ball, ballDirX, ballDirY)
         ballDirX, ballDirY = colision_detection(ball, ballDirX, ballDirY)
         # atualiza o desenho na tela
+
         pygame.display.update()
         FPSCLOCK.tick(FPS)
 
