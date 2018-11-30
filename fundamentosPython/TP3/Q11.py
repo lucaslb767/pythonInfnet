@@ -18,7 +18,7 @@ pygame.init()
 
 win = pygame.display.set_mode((SCREEN_WIDTH,SCREEN_HEIGHT))
 
-pygame.display.set_caption('Q10')
+pygame.display.set_caption('Q11')
 
 
 
@@ -32,8 +32,6 @@ while run:
     for event in pygame.event.get():
         if event.type == pygame.QUIT:
             run = False
-
-    keys = pygame.key.get_pressed()
 
     X += vel
 
