@@ -1,97 +1,53 @@
-#Usando a biblioteca Pygame, escreva um programa que possui uma função que desenha um quadrado vermelho de 100 px de lado no centro da tela. O quadrado deve ser capaz de se movimentar vertical e horizontalmente através de teclas do computador. Pode ser ‘a’,’s’,’d’,’w’ ou as setas do teclado. (código e printscreen)
-
-import pygame, sys
-from pygame.locals import *
-
-screen_width = 800
-screen_height = 600
-
-black = (0,0,0)
-blue = (255,255,0)
-red = (255,0,0)
-square_position = [int(screen_width/2 - 50),int(screen_height/2 - 50)]
-velocity = 5
-
-SCREEN = pygame.display.set_mode((screen_width,screen_height))
-
-square = pygame.draw.rect(SCREEN,red, (square_position[0], square_position[1], 100, 100))
-
-def draw_background():
-    SCREEN.fill(black)
-
-def square_move(keys, square_pos):
-    if keys[0] and square_pos[1]> 100:
-        square_pos[1] -= velocity
-
-    elif keys[1] and square_pos[1] <500:
-        square_pos[1] += velocity
-
-    elif keys[2] and square_pos[0] > 0:
-        square_pos[0] -= velocity
-
-    elif keys[3] and square_pos[0] < 700:
-        square_pos[0] += velocity
-
-    return square_pos
-
-def draw_square(square_pos):
-
-    SCREEN.blit(square)
-
-def main():
-
-    pygame.init()
-    global SCREEN
-
-    SCREEN = pygame.display.set_mode((screen_width,screen_height))
-
-
-    #indices 0,1,2,3 sao respectivamente w,s,a,d
-    keys =[False, False, False, False]
-    done = False
-
-    clock = pygame.time.Clock()
-
-    while not done:
+import pygame
 
 
 
-        for event in pygame.event.get():
-            if event.type == pygame.QUIT:
-                done = True
-            # Enquanto estiver pressionado, o coelho vai se mexer
-            if event.type == pygame.KEYDOWN:
-                if event.key == K_w:
-                    keys[0] = True
-                elif event.key == K_a:
-                    keys[1] = True
-                elif event.key == K_s:
-                    keys[2] = True
-                elif event.key == K_d:
-                    keys[3] = True
+SCREEN_WIDTH = 500
+SCREEN_HEIGHT= 500
 
-            # No momento que parou de pressionar a tecla
-            if event.type == pygame.KEYUP:
-                if event.key == pygame.K_w:
-                    keys[0] = False
-                elif event.key == pygame.K_a:
-                    keys[1] = False
-                elif event.key == pygame.K_s:
-                    keys[2] = False
-                elif event.key == pygame.K_d:
-                    keys[3] = False
+width = 100
+height= 100
+
+X = SCREEN_WIDTH//2 - width//2
+Y = SCREEN_HEIGHT//2 - height//2
+RED = (255,0,0)
+BLACK = (0,0,0)
+pygame.init()
 
 
-        draw_background()
-        square_move(keys,square_position)
-        draw_square(square_position)
-        pygame.display.update()
 
-        clock.tick(60)
-    pygame.display.quit()
+win = pygame.display.set_mode((SCREEN_WIDTH,SCREEN_HEIGHT))
 
-    pygame.quit()
-    sys.exit()
+pygame.display.set_caption('Q10')
 
-if __name__ == '__main__':
-    main()
+
+
+vel = 5
+
+run = True
+while run:
+
+    pygame.time.delay(100)
+
+    for event in pygame.event.get():
+        if event.type == pygame.QUIT:
+            run = False
+
+    keys = pygame.key.get_pressed()
+
+    if keys[pygame.K_w]:
+        Y -= vel
+    if keys[pygame.K_s]:
+        Y += vel
+    if keys[pygame.K_a]:
+        X -= vel
+    if keys[pygame.K_d]:
+        X += vel
+
+    win.fill(BLACK)
+    pygame.draw.rect(win,RED,(X, Y,width,height ) )
+    pygame.display.update()
+
+pygame.display.quit()
+
+pygame.quit()
