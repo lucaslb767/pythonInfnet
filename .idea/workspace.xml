@@ -2,15 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a995429f-39f0-45e8-ba2d-ac966c6da2af" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/avançadoPython/TP1/TP02B.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/avançadoPython/TP1/TP02C.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/avançadoPython/TP1/TP03.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/avançadoPython/TP1/TP04.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/avançadoPython/TP1/TP05.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/avançadoPython/TP1/TP06.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/pythonInfnet.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/pythonInfnet.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/avançadoPython/TP1/TP07.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/avançadoPython/TP1/TP08.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/avançadoPython/TP1/TP09.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/avançadoPython/TP1/TP01.py" beforeDir="false" afterPath="$PROJECT_DIR$/avançadoPython/TP1/TP01.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -22,10 +17,12 @@
     <SUITE FILE_PATH="coverage/pythonInfnet$lucas_barrozo_DR2_TP2.coverage" NAME="lucas_barrozo_DR2_TP2 Coverage Results" MODIFIED="1542636143632" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/projetoBloco/TP2" />
     <SUITE FILE_PATH="coverage/pythonInfnet$moodle_etapa2.coverage" NAME="moodle_etapa2 Coverage Results" MODIFIED="1542392180887" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/projetoBloco/etapa2" />
     <SUITE FILE_PATH="coverage/pythonInfnet$memory_info.coverage" NAME="memory_info Coverage Results" MODIFIED="1542567775495" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/projetoBloco/etapa2" />
+    <SUITE FILE_PATH="coverage/pythonInfnet$TP07.coverage" NAME="TP07 Coverage Results" MODIFIED="1550442505946" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/avançadoPython/TP1" />
     <SUITE FILE_PATH="coverage/pythonInfnet$platform_test.coverage" NAME="platform_test Coverage Results" MODIFIED="1542397555844" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/projetoBloco/etapa2" />
     <SUITE FILE_PATH="coverage/pythonInfnet$etapa4_2.coverage" NAME="etapa4.2 Coverage Results" MODIFIED="1542392177807" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/projetoBloco/etapa4" />
     <SUITE FILE_PATH="coverage/pythonInfnet$psutil.coverage" NAME="psutil Coverage Results" MODIFIED="1542397123179" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/projetoBloco/etapa2" />
     <SUITE FILE_PATH="coverage/pythonInfnet$TP05.coverage" NAME="TP05 Coverage Results" MODIFIED="1550441232310" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/avançadoPython/TP1" />
+    <SUITE FILE_PATH="coverage/pythonInfnet$TP08.coverage" NAME="TP08 Coverage Results" MODIFIED="1550459216889" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/avançadoPython/TP1" />
     <SUITE FILE_PATH="coverage/pythonInfnet$cpu_info.coverage" NAME="cpu_info Coverage Results" MODIFIED="1542567783759" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/projetoBloco/etapa2" />
     <SUITE FILE_PATH="coverage/pythonInfnet$superficie.coverage" NAME="superficie Coverage Results" MODIFIED="1542571726495" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/projetoBloco/etapa2" />
     <SUITE FILE_PATH="coverage/pythonInfnet$test_pygame.coverage" NAME="test_pygame Coverage Results" MODIFIED="1542651003647" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/projetoBloco/etapa3" />
@@ -49,71 +46,36 @@
     <SUITE FILE_PATH="coverage/pythonInfnet$etapa4_1.coverage" NAME="etapa4.1 Coverage Results" MODIFIED="1542365852519" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/projetoBloco" />
     <SUITE FILE_PATH="coverage/pythonInfnet$psutil_disk.coverage" NAME="psutil_disk Coverage Results" MODIFIED="1542398634630" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/projetoBloco/etapa2" />
     <SUITE FILE_PATH="coverage/pythonInfnet$TP04.coverage" NAME="TP04 Coverage Results" MODIFIED="1550433348451" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/avançadoPython/TP1" />
+    <SUITE FILE_PATH="coverage/pythonInfnet$TP09.coverage" NAME="TP09 Coverage Results" MODIFIED="1550459959298" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/avançadoPython/TP1" />
     <SUITE FILE_PATH="coverage/pythonInfnet$pygameInterface.coverage" NAME="pygameInterface Coverage Results" MODIFIED="1542566522187" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/projetoBloco/etapa2" />
     <SUITE FILE_PATH="coverage/pythonInfnet$questao13.coverage" NAME="questao13 Coverage Results" MODIFIED="1550429580136" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/fundamentosPython/TP1" />
     <SUITE FILE_PATH="coverage/pythonInfnet$TP01.coverage" NAME="TP01 Coverage Results" MODIFIED="1550429771655" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/avançadoPython/TP1" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/avançadoPython/TP1/TP01.py">
+        <entry file="file://$PROJECT_DIR$/avançadoPython/TP1/TP07.py">
           <provider selected="true" editor-type-id="text-editor">
             <state>
-              <caret selection-end-line="4" selection-end-column="19" />
+              <caret selection-end-line="5" selection-end-column="31" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/avançadoPython/TP1/TP02B.py">
+        <entry file="file://$PROJECT_DIR$/avançadoPython/TP1/TP08.py">
           <provider selected="true" editor-type-id="text-editor">
             <state>
-              <caret selection-end-line="1" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/avançadoPython/TP1/TP02C.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret selection-end-line="1" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/avançadoPython/TP1/TP03.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret selection-end-line="1" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/avançadoPython/TP1/TP04.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="7" column="33" lean-forward="true" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="33" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/avançadoPython/TP1/TP05.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="110">
-              <caret line="5" column="33" lean-forward="true" selection-start-line="5" selection-start-column="33" selection-end-line="5" selection-end-column="33" />
+              <caret selection-end-line="10" selection-end-column="43" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/avançadoPython/TP1/TP06.py">
+        <entry file="file://$PROJECT_DIR$/avançadoPython/TP1/TP09.py">
           <provider selected="true" editor-type-id="text-editor">
             <state>
-              <caret selection-end-line="8" selection-end-column="63" />
+              <caret selection-end-line="5" selection-end-column="39" />
             </state>
           </provider>
         </entry>
@@ -178,14 +140,16 @@
         <option value="$PROJECT_DIR$/avançadoPython/TP1/TP04.py" />
         <option value="$PROJECT_DIR$/avançadoPython/TP1/TP05.py" />
         <option value="$PROJECT_DIR$/avançadoPython/TP1/TP06.py" />
+        <option value="$PROJECT_DIR$/avançadoPython/TP1/TP07.py" />
+        <option value="$PROJECT_DIR$/avançadoPython/TP1/TP08.py" />
+        <option value="$PROJECT_DIR$/avançadoPython/TP1/TP09.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="208" />
-    <option name="y" value="1637" />
-    <option name="width" value="1920" />
-    <option name="height" value="1080" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="951" />
+    <option name="width" value="978" />
+    <option name="height" value="1039" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -241,73 +205,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.TP06">
-    <configuration name="TP02C" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="pythonInfnet" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/avançadoPython/TP1" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/avançadoPython/TP1/TP02C.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="TP03" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="pythonInfnet" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/avançadoPython/TP1" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/avançadoPython/TP1/TP03.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="TP04" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="pythonInfnet" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/avançadoPython/TP1" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/avançadoPython/TP1/TP04.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.TP09">
     <configuration name="TP05" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="pythonInfnet" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -352,20 +250,86 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="TP07" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="pythonInfnet" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/avançadoPython/TP1" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/avançadoPython/TP1/TP07.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TP08" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="pythonInfnet" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/avançadoPython/TP1" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/avançadoPython/TP1/TP08.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TP09" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="pythonInfnet" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/avançadoPython/TP1" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/avançadoPython/TP1/TP09.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <list>
-      <item itemvalue="Python.TP02C" />
-      <item itemvalue="Python.TP03" />
-      <item itemvalue="Python.TP04" />
       <item itemvalue="Python.TP05" />
       <item itemvalue="Python.TP06" />
+      <item itemvalue="Python.TP07" />
+      <item itemvalue="Python.TP08" />
+      <item itemvalue="Python.TP09" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.TP09" />
+        <item itemvalue="Python.TP08" />
+        <item itemvalue="Python.TP07" />
         <item itemvalue="Python.TP06" />
         <item itemvalue="Python.TP05" />
-        <item itemvalue="Python.TP04" />
-        <item itemvalue="Python.TP03" />
-        <item itemvalue="Python.TP02C" />
       </list>
     </recent_temporary>
   </component>
@@ -380,18 +344,18 @@
       <option name="presentableId" value="Default" />
       <updated>1542101639627</updated>
       <workItem from="1550141251950" duration="773000" />
-      <workItem from="1550428734661" duration="5629000" />
+      <workItem from="1550428734661" duration="10177000" />
+      <workItem from="1550486681925" duration="598000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6402000" />
+    <option name="totallyTimeSpent" value="11548000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="286" y="1433" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
+    <frame x="762" y="0" width="781" height="830" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26180837" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.5492372" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -610,15 +574,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/avançadoPython/TP1/TP05" />
     <entry file="file://$PROJECT_DIR$/avançadoPython/TP1/TP03.py">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret selection-end-line="1" selection-end-column="18" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/avançadoPython/TP1/TP05">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/avançadoPython/TP1/TP04.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -638,6 +600,27 @@
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret selection-end-line="8" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/avançadoPython/TP1/TP07.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="5" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/avançadoPython/TP1/TP08.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="10" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/avançadoPython/TP1/TP09.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="5" selection-end-column="39" />
         </state>
       </provider>
     </entry>
