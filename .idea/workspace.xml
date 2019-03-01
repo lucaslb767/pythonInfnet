@@ -2,19 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a995429f-39f0-45e8-ba2d-ac966c6da2af" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/avançadoPython/TP3/Q01.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/avançadoPython/TP3/Q02.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/avançadoPython/TP3/Q03.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/avançadoPython/TP3/Q04.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/avançadoPython/TP3/Q05.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/avançadoPython/TP3/Q06.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/avançadoPython/TP3/Q07.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/avançadoPython/TP3/Q08.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/avançadoPython/TP3/Q09.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/avançadoPython/TP3/Q10.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/avançadoPython/TP3/Q11.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/avançadoPython/aula/06-clientTCP.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/avançadoPython/aula/06-servidorTCP.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/avançadoPython/TP1/TP11.py" beforeDir="false" afterPath="$PROJECT_DIR$/avançadoPython/TP1/TP11.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -25,10 +15,11 @@
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/pythonInfnet$lucas_barrozo_DR2_TP2.coverage" NAME="lucas_barrozo_DR2_TP2 Coverage Results" MODIFIED="1542636143632" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/projetoBloco/TP2" />
     <SUITE FILE_PATH="coverage/pythonInfnet$moodle_etapa2.coverage" NAME="moodle_etapa2 Coverage Results" MODIFIED="1542392180887" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/projetoBloco/etapa2" />
+    <SUITE FILE_PATH="coverage/pythonInfnet$06_clientTCP.coverage" NAME="06-clientTCP Coverage Results" MODIFIED="1551353775099" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/avançadoPython/aula" />
     <SUITE FILE_PATH="coverage/pythonInfnet$memory_info.coverage" NAME="memory_info Coverage Results" MODIFIED="1542567775495" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/projetoBloco/etapa2" />
     <SUITE FILE_PATH="coverage/pythonInfnet$TP07.coverage" NAME="TP07 Coverage Results" MODIFIED="1550442505946" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/avançadoPython/TP1" />
     <SUITE FILE_PATH="coverage/pythonInfnet$platform_test.coverage" NAME="platform_test Coverage Results" MODIFIED="1542397555844" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/projetoBloco/etapa2" />
-    <SUITE FILE_PATH="coverage/pythonInfnet$TP16.coverage" NAME="TP16 Coverage Results" MODIFIED="1550535774886" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/avançadoPython/TP1" />
+    <SUITE FILE_PATH="coverage/pythonInfnet$TP16.coverage" NAME="TP16 Coverage Results" MODIFIED="1551351573388" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/avançadoPython/TP1" />
     <SUITE FILE_PATH="coverage/pythonInfnet$etapa4_2.coverage" NAME="etapa4.2 Coverage Results" MODIFIED="1542392177807" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/projetoBloco/etapa4" />
     <SUITE FILE_PATH="coverage/pythonInfnet$psutil.coverage" NAME="psutil Coverage Results" MODIFIED="1542397123179" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/projetoBloco/etapa2" />
     <SUITE FILE_PATH="coverage/pythonInfnet$TP05.coverage" NAME="TP05 Coverage Results" MODIFIED="1550441232310" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/avançadoPython/TP1" />
@@ -45,6 +36,7 @@
     <SUITE FILE_PATH="coverage/pythonInfnet$disk_info.coverage" NAME="disk_info Coverage Results" MODIFIED="1542573905814" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/projetoBloco/etapa2" />
     <SUITE FILE_PATH="coverage/pythonInfnet$TP02B.coverage" NAME="TP02B Coverage Results" MODIFIED="1550430317024" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/avançadoPython/TP1" />
     <SUITE FILE_PATH="coverage/pythonInfnet$psutil_test.coverage" NAME="psutil_test Coverage Results" MODIFIED="1542397750170" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/projetoBloco/etapa2" />
+    <SUITE FILE_PATH="coverage/pythonInfnet$06_servidorTCP.coverage" NAME="06-servidorTCP Coverage Results" MODIFIED="1551353766419" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/avançadoPython/aula" />
     <SUITE FILE_PATH="coverage/pythonInfnet$TP06.coverage" NAME="TP06 Coverage Results" MODIFIED="1550441624289" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/avançadoPython/TP1" />
     <SUITE FILE_PATH="coverage/python$questao13.coverage" NAME="questao13 Coverage Results" MODIFIED="1543705122118" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/fundamentosPython/TP1" />
     <SUITE FILE_PATH="coverage/pythonInfnet$TP03.coverage" NAME="TP03 Coverage Results" MODIFIED="1550431008749" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/avançadoPython/TP1" />
@@ -63,62 +55,7 @@
     <SUITE FILE_PATH="coverage/pythonInfnet$TP01.coverage" NAME="TP01 Coverage Results" MODIFIED="1550429771655" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/avançadoPython/TP1" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/avançadoPython/TP3/Q03.py">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/avançadoPython/TP3/Q04.py">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/avançadoPython/TP3/Q05.py">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/avançadoPython/TP3/Q06.py">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/avançadoPython/TP3/Q07.py">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/avançadoPython/TP3/Q08.py">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/avançadoPython/TP3/Q09.py">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/avançadoPython/TP3/Q10.py">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/avançadoPython/TP3/Q11.py">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/avançadoPython/TP3/Q01.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -143,8 +80,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/projetoBloco/etapa4.py" />
-        <option value="$PROJECT_DIR$/projetoBloco/etapa4.2.py" />
         <option value="$PROJECT_DIR$/projetoBloco/etapa4.1.py" />
         <option value="$PROJECT_DIR$/projetoBloco/etapa4/etapa4.2.py" />
         <option value="$PROJECT_DIR$/projetoBloco/etapa2/moodle_etapa2.py" />
@@ -193,21 +128,23 @@
         <option value="$PROJECT_DIR$/avançadoPython/TP3/Q09.py" />
         <option value="$PROJECT_DIR$/avançadoPython/TP3/Q10.py" />
         <option value="$PROJECT_DIR$/avançadoPython/TP3/Q11.py" />
+        <option value="$PROJECT_DIR$/avançadoPython/aula/server.py" />
+        <option value="$PROJECT_DIR$/avançadoPython/aula/06-clientTCP.py" />
+        <option value="$PROJECT_DIR$/avançadoPython/aula/06-servidorTCP.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-10" />
     <option name="y" value="-10" />
-    <option name="width" value="1939" />
-    <option name="height" value="1099" />
+    <option name="width" value="1940" />
+    <option name="height" value="1100" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -223,13 +160,13 @@
             <path>
               <item name="pythonInfnet" type="b2602c69:ProjectViewProjectNode" />
               <item name="pythonInfnet" type="462c0819:PsiDirectoryNode" />
-              <item name="avançadoPython" type="462c0819:PsiDirectoryNode" />
-              <item name="TP3" type="462c0819:PsiDirectoryNode" />
+              <item name="projetoBloco" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -256,8 +193,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.TP16">
-    <configuration name="TP07" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.06-clientTCP">
+    <configuration name="06-clientTCP" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="pythonInfnet" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -265,12 +202,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/avançadoPython/TP1" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/avançadoPython/aula" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/avançadoPython/TP1/TP07.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/avançadoPython/aula/06-clientTCP.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -279,7 +216,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="TP08" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="06-servidorTCP" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="pythonInfnet" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -287,12 +224,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/avançadoPython/TP1" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/avançadoPython/aula" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/avançadoPython/TP1/TP08.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/avançadoPython/aula/06-servidorTCP.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -368,19 +305,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.TP07" />
-      <item itemvalue="Python.TP08" />
       <item itemvalue="Python.TP09" />
       <item itemvalue="Python.TP15" />
       <item itemvalue="Python.TP16" />
+      <item itemvalue="Python.06-servidorTCP" />
+      <item itemvalue="Python.06-clientTCP" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.06-clientTCP" />
+        <item itemvalue="Python.06-servidorTCP" />
         <item itemvalue="Python.TP16" />
         <item itemvalue="Python.TP15" />
         <item itemvalue="Python.TP09" />
-        <item itemvalue="Python.TP08" />
-        <item itemvalue="Python.TP07" />
       </list>
     </recent_temporary>
   </component>
@@ -398,23 +335,23 @@
       <workItem from="1550428734661" duration="10177000" />
       <workItem from="1550486681925" duration="598000" />
       <workItem from="1550535370368" duration="1232000" />
-      <workItem from="1551177317096" duration="353000" />
+      <workItem from="1551177317096" duration="3673000" />
+      <workItem from="1551350526017" duration="5139000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13133000" />
+    <option name="totallyTimeSpent" value="21592000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2785235" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28255033" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.23512748" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.23512748" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -438,27 +375,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/projetoBloco/etapa2/cpu_info.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="56" column="18" selection-start-line="53" selection-start-column="4" selection-end-line="56" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/projetoBloco/etapa3/cpuInfo_test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="54" selection-start-line="11" selection-start-column="54" selection-end-line="11" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/projetoBloco/TP2/lucas_barrozo_DR2_TP2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1462">
-          <caret line="87" column="45" selection-start-line="87" selection-start-column="45" selection-end-line="87" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/projetoBloco/etapa3/frequencia_total.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -710,21 +626,58 @@
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/avançadoPython/TP3/Q08.py">
-      <provider selected="true" editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="28" selection-start-line="4" selection-start-column="28" selection-end-line="4" selection-end-column="28" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/avançadoPython/TP3/Q09.py">
-      <provider selected="true" editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="3" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/avançadoPython/TP3/Q10.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/avançadoPython/TP3/Q11.py">
-      <provider selected="true" editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="109" selection-start-line="5" selection-start-column="109" selection-end-line="5" selection-end-column="109" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/avançadoPython/TP3/Q01.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/avançadoPython/aula/server.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" column="30" selection-start-line="24" selection-start-column="30" selection-end-line="24" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/avançadoPython/TP3/Q11.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="3" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/avançadoPython/aula/06-servidorTCP.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="387">
+          <caret line="34" column="24" selection-start-line="34" selection-start-column="24" selection-end-line="34" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/avançadoPython/aula/06-clientTCP.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="149">
+          <caret line="21" column="35" lean-forward="true" selection-start-line="21" selection-start-column="35" selection-end-line="21" selection-end-column="35" />
         </state>
       </provider>
     </entry>
