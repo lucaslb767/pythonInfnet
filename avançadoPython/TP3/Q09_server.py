@@ -26,10 +26,8 @@ while True:
 
     udp.sendto(msg_to_client.encode('ascii'),cliente)
 
-    saida = str(input('digite sair para terminar...')).lower()
-    if saida == 'sair':
 
-
+    if str(msg.decode('ascii')) == 'sair':
+        udp.close()
         break
 
-udp.close()

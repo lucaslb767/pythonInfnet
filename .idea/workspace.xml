@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a995429f-39f0-45e8-ba2d-ac966c6da2af" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/avançadoPython/TP3/Q09_client.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/avançadoPython/TP3/Q08_client.py" beforeDir="false" afterPath="$PROJECT_DIR$/avançadoPython/TP3/Q08_client.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/avançadoPython/TP3/Q09.py" beforeDir="false" afterPath="$PROJECT_DIR$/avançadoPython/TP3/Q09_server.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/avançadoPython/TP3/Q09_server.py" beforeDir="false" afterPath="$PROJECT_DIR$/avançadoPython/TP3/Q09_server.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,7 +15,7 @@
     <SUITE FILE_PATH="coverage/pythonInfnet$moodle_etapa2.coverage" NAME="moodle_etapa2 Coverage Results" MODIFIED="1542392180887" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/projetoBloco/etapa2" />
     <SUITE FILE_PATH="coverage/pythonInfnet$06_clientTCP.coverage" NAME="06-clientTCP Coverage Results" MODIFIED="1551353775099" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/avançadoPython/aula" />
     <SUITE FILE_PATH="coverage/pythonInfnet$Q08_server.coverage" NAME="Q08_server Coverage Results" MODIFIED="1552323258288" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/avançadoPython/TP3" />
-    <SUITE FILE_PATH="coverage/pythonInfnet$Q09_client.coverage" NAME="Q09_client Coverage Results" MODIFIED="1552350301135" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/avançadoPython/TP3" />
+    <SUITE FILE_PATH="coverage/pythonInfnet$Q09_client.coverage" NAME="Q09_client Coverage Results" MODIFIED="1552350890197" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/avançadoPython/TP3" />
     <SUITE FILE_PATH="coverage/pythonInfnet$memory_info.coverage" NAME="memory_info Coverage Results" MODIFIED="1542567775495" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/projetoBloco/etapa2" />
     <SUITE FILE_PATH="coverage/pythonInfnet$TP07.coverage" NAME="TP07 Coverage Results" MODIFIED="1550442505946" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/avançadoPython/TP1" />
     <SUITE FILE_PATH="coverage/pythonInfnet$platform_test.coverage" NAME="platform_test Coverage Results" MODIFIED="1542397555844" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/projetoBloco/etapa2" />
@@ -45,7 +42,7 @@
     <SUITE FILE_PATH="coverage/python$questao13.coverage" NAME="questao13 Coverage Results" MODIFIED="1543705122118" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/fundamentosPython/TP1" />
     <SUITE FILE_PATH="coverage/pythonInfnet$Q08_client.coverage" NAME="Q08_client Coverage Results" MODIFIED="1552323264733" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/avançadoPython/TP3" />
     <SUITE FILE_PATH="coverage/pythonInfnet$TP03.coverage" NAME="TP03 Coverage Results" MODIFIED="1550431008749" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/avançadoPython/TP1" />
-    <SUITE FILE_PATH="coverage/pythonInfnet$Q09_server.coverage" NAME="Q09_server Coverage Results" MODIFIED="1552350234428" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/avançadoPython/TP3" />
+    <SUITE FILE_PATH="coverage/pythonInfnet$Q09_server.coverage" NAME="Q09_server Coverage Results" MODIFIED="1552350871268" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/avançadoPython/TP3" />
     <SUITE FILE_PATH="coverage/pythonInfnet$frequencia_total.coverage" NAME="frequencia_total Coverage Results" MODIFIED="1542630533387" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/projetoBloco/etapa3" />
     <SUITE FILE_PATH="coverage/pythonInfnet$platform.coverage" NAME="platform Coverage Results" MODIFIED="1542397311803" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/projetoBloco/etapa2" />
     <SUITE FILE_PATH="coverage/pythonInfnet$timeSleep.coverage" NAME="timeSleep Coverage Results" MODIFIED="1543574167555" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/projetoBloco" />
@@ -66,8 +63,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/avançadoPython/TP3/Q08_server.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="26" column="46" lean-forward="true" selection-start-line="7" selection-end-line="26" selection-end-column="46" />
+            <state relative-caret-position="425">
+              <caret line="26" column="46" selection-start-line="7" selection-end-line="26" selection-end-column="46" />
               <folding>
                 <element signature="e#223#236#0" expanded="true" />
               </folding>
@@ -87,8 +84,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/avançadoPython/TP3/Q09_server.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="302">
-              <caret line="26" column="35" lean-forward="true" selection-start-line="26" selection-start-column="35" selection-end-line="26" selection-end-column="35" />
+            <state relative-caret-position="390">
+              <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
               <folding>
                 <element signature="e#330#343#0" expanded="true" />
               </folding>
@@ -99,8 +96,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/avançadoPython/TP3/Q09_client.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="13" lean-forward="true" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+            <state relative-caret-position="153">
+              <caret line="9" column="11" lean-forward="true" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
             </state>
           </provider>
         </entry>
@@ -179,8 +176,8 @@
         <option value="$PROJECT_DIR$/avançadoPython/TP3/Q08.py" />
         <option value="$PROJECT_DIR$/avançadoPython/TP3/Q08_server.py" />
         <option value="$PROJECT_DIR$/avançadoPython/TP3/Q08_client.py" />
-        <option value="$PROJECT_DIR$/avançadoPython/TP3/Q09_server.py" />
         <option value="$PROJECT_DIR$/avançadoPython/TP3/Q09_client.py" />
+        <option value="$PROJECT_DIR$/avançadoPython/TP3/Q09_server.py" />
       </list>
     </option>
   </component>
@@ -390,16 +387,18 @@
       <workItem from="1551350526017" duration="8250000" />
       <workItem from="1551955867226" duration="598000" />
       <workItem from="1552321539460" duration="4043000" />
+      <workItem from="1552350218587" duration="519000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29344000" />
+    <option name="totallyTimeSpent" value="29863000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.29060403" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2946309" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -727,8 +726,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/avançadoPython/TP3/Q08_server.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="26" column="46" lean-forward="true" selection-start-line="7" selection-end-line="26" selection-end-column="46" />
+        <state relative-caret-position="425">
+          <caret line="26" column="46" selection-start-line="7" selection-end-line="26" selection-end-column="46" />
           <folding>
             <element signature="e#223#236#0" expanded="true" />
           </folding>
@@ -744,15 +743,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/avançadoPython/TP3/Q09_client.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="13" lean-forward="true" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        <state relative-caret-position="153">
+          <caret line="9" column="11" lean-forward="true" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/avançadoPython/TP3/Q09_server.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="302">
-          <caret line="26" column="35" lean-forward="true" selection-start-line="26" selection-start-column="35" selection-end-line="26" selection-end-column="35" />
+        <state relative-caret-position="390">
+          <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
           <folding>
             <element signature="e#330#343#0" expanded="true" />
           </folding>
